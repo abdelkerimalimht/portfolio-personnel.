@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #222;
+}
+
+header {
+  background-color: #005daa;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  padding: 2rem;
+}
+
+.photo-profil {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.photo-profil img {
+  width: 180px;
+  height: 280px;
+  border-radius: 55% % 40% 40%;
+  border: 4px solid #76bea6;
+  object-fit: cover;
+}
+
+.bio {
+  margin-top: 1rem;
+  background: #76bea6;
+  padding: 1rem;
+  border-radius: 5px;
+  width: 80%;
+  margin-inline: auto;
+  max-width: 500px;
+}
+
+.competences ul, .reseaux ul {
+  margin-top: 1rem;
+  padding-left: 1.5rem;
+}
+
+.projets {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 1rem 0;
+}
+
+.projet {
+  background: #ffffff;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.projet img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: auto;
+}
+
+.contact form input,
+.contact form textarea,
+.contact form button {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+footer {
+  background: #005daa;
+  color: white;
+  text-align:row-reverse;justify-content:center;align-items: center;
+  padding: 2rem;
+  margin-top: 6rem;
+}
